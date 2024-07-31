@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+#editor {
+    background-color: rgba(128, 128, 128, 0.311);
+    width: 80vw;
+    height: 50vh;
+    border: 1px solid #3a2f2fa6;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+#editor:focus {
+    outline: none;
+}
+
+#output {
+    width: 80vw;
+    padding: 10px;
+    background-color: #eee;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    white-space: pre-wrap;
+}
+
+#run-btn {
+    border: none;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#run-btn:hover {
+    background-color: #3e8e41;
+}
